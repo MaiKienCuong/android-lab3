@@ -25,6 +25,11 @@ public class MainActivity_ChonMau extends AppCompatActivity {
         setContentView(R.layout.activity_main__chon_mau);
         getSupportActionBar().hide();
 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            Window w = getWindow();
+            w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        }
+
         imageView = findViewById(R.id.imageView2Mau);
         buttonWhite = findViewById(R.id.button3);
         buttonBlue = findViewById(R.id.button4);
