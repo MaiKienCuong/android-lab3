@@ -9,6 +9,6 @@
 
 
 ```diff
-- chonmau san pham
+- chon mau san pham
 ```
 ![alt text](https://github.com/MaiKienCuong/android-lab3/blob/main/anh2.PNG?raw=true)
