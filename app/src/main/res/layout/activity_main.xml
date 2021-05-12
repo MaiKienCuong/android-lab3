@@ -132,10 +132,11 @@
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginTop="20dp"
+        android:background="@drawable/bgbtn"
+        android:backgroundTint="@null"
         android:text="CHỌN MUA"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:backgroundTint="#FFC107"
         app:layout_constraintEnd_toEndOf="@+id/buttonChonMau"
         app:layout_constraintStart_toStartOf="@+id/buttonChonMau"
         app:layout_constraintTop_toBottomOf="@+id/buttonChonMau" />
